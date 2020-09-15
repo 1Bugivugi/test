@@ -1,0 +1,79 @@
+:root {
+  --photo1: url('img/Мадина Магомадова.JPG');
+  --photo2: url('img/Либкан Базаева.jpg');
+  --photo3: url('img/Ася Ганаева (Хамзатова).jpg');
+  --photo4: url('img/Инна Айрапетян.jpg');
+  --photo5: url('img/Зулейхан Багалова.jpg');
+  --photo6: url('img/Асет Исаева.jpg');
+}
+
+.container_c {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.container_c img {
+  max-width: 100%;
+}
+
+/* .person-block div {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.personPhoto1 {
+  width: 350px;
+  height: 233px;
+  background-image: var(--photo1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.personPhoto2 {
+  width: 350px;
+  height: 350px;
+  background-image: var(--photo2);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+}
+.personPhoto3 {
+  width: 263px;
+  height: 350px;
+  background-image: var(--photo3);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 20px;
+}
+.personPhoto4 {
+  width: 350px;
+  height: 235px;
+  background-image: var(--photo4);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  float: left;
+  margin: 0 20px 0 0;
+}
+.personPhoto5 {
+  width: 350px;
+  height: 245px;
+  background-image: var(--photo5);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+}
+.personPhoto6 {
+  width: 235px;
+  height: 350px;
+  background-image: var(--photo6);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+}
